@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sis.ait.college"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="sis.ait.college.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FormActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".StudentSignUpActivity" />
+        <activity android:name=".ParentSignUpActivity" />
+        <activity android:name=".ForgotPassActivity" />
+        <activity android:name=".student.StudentGridViewActivity" />
+        <activity android:name=".student.StudentProfileActivity" />
+        <activity android:name=".student.SyllabusActivity" />
+        <activity android:name=".student.AssignmentActivity" />
+        <activity android:name=".student.TimeTableActivity" />
+        <activity android:name=".gridview_activities.ResultActivity" />
+        <activity android:name=".gridview_activities.AttendanceActivity" />
+        <activity android:name=".gridview_activities.EventsActivity" />
+        <activity android:name=".gridview_activities.NewsActivity" />
+        <activity android:name=".gridview_activities.ComplainActivity" />
+        <activity android:name=".gridview_activities.FeedbackActivity" />
+        <activity android:name=".gridview_activities.SignoutActivity" />
+        <activity android:name=".parent.ParentGridViewActivity" />
+        <activity android:name=".parent.ParentProfileActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#007bb5"  >
+
+    <TextView
+        android:id="@+id/tvQueForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Forgot your password?"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tvDescriptionForgotPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvQueForgotPass"
+        android:layout_below="@+id/tvQueForgotPass"
+        android:layout_marginTop="10dp"
+        android:text="In order to receive your access code by e-mail,please enter the address you provided during the registration process." 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etForgotPassEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvDescriptionForgotPass"
+        android:layout_below="@+id/tvDescriptionForgotPass"
+        android:layout_marginTop="20dp"
+        android:ems="12"
+        android:padding="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/edittext_rounded_bg"
+        android:drawableLeft="@drawable/email"
+        android:hint="  E-mail" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSendPass"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/etForgotPassEmail"
+        android:layout_below="@+id/etForgotPassEmail"
+        android:layout_marginTop="10dp"
+        android:text="Send"
+        android:background="@drawable/button_bg" />
+
+</RelativeLayout>

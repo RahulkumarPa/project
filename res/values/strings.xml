@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SIS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="sp_select_user">
+        <item >Student</item>
+        <item>Parent</item>
+    </string-array>
+    <string-array name="sp_select_semester">
+        <item>Semester:-1</item>
+        <item>Semester:-2</item>
+        <item>Semester:-3</item>
+        <item>Semester:-4</item>
+        <item>Semester:-5</item>
+        <item>Semester:-6</item>
+        <item>Semester:-7</item>
+        <item>Semester:-8</item>
+    </string-array>
+    <string-array name="sp_select_branch">
+        <item>Civil Engineering</item>
+        <item>Computer Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Information Technology</item>
+        <item>Mechanical Engineering</item>
+    </string-array>
+    <string-array name="gv_parent_menu">
+        <item>Profile</item>
+        <item>Result</item>
+        <item>Attendance</item>
+      	<item>Events</item>
+        <item>News</item>
+        <item>Complain</item>
+        <item>Feedback</item>
+        <item>Logout</item>
+    </string-array>
+
+</resources>
